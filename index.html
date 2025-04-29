@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ThingSpeak Data Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ThingSpeak Data Viewer</h1>
+  <label for="apiKey">Enter Read API Key:</label>
+  <input type="text" id="apiKey" placeholder="Ex: ABCD1234XYZ">
+
+  <label for="channelId">Enter Channel ID:</label>
+  <input type="number" id="channelId" placeholder="Ex: 123456">
+
+  <button onclick="fetchData()">Fetch Latest Data</button>
+
+  <div id="dataDisplay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
